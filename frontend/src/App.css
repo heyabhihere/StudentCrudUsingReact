@@ -1,0 +1,147 @@
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin-inline: auto;
+}
+
+th,
+td {
+  padding: 10px;
+  margin: 2px;
+}
+
+th {
+  border: 0.5px solid;
+  background-color: cornflowerblue;
+}
+
+td {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+table {
+  margin-inline: auto;
+  background-color: rgb(40, 39, 39);
+  border: grey solid;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+
+}
+
+#HomeBtn {
+  margin-inline: auto;
+}
+
+#formCont {
+  background-color: rgb(148, 144, 144);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 500px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+#submit {
+  margin: 10px;
+  padding: 5px;
+  background: green;
+  color: beige;
+  border-radius: 10px;
+  font-size: medium;
+
+}
+
+#addUser,
+#updateUser {
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column; 
+  max-width: 400px;
+  
+}
+
+#formCont{
+  margin-top: 10%;
+}
+
+.add-btn {
+  background-color: rgb(16, 219, 94);
+}
+
+.marks-btn {
+  background-color: yellow;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.update-btn {
+  background-color: coral;
+}
+
+
+button:hover {
+  background-color: whitesmoke
+}
+
+#submit:hover {
+  background-color:darkgreen
+}
+
+.back {
+  padding: 5px;
+  background-color: lightgray;
+
+}
+
+.btn{
+  border-radius: 25px;
+  background-color: rgb(159, 186, 40);
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  
+}
+
+.pagination .page-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  color: #fff;
+}
